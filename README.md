@@ -1,8 +1,6 @@
 # Public Repo 
 It is a public repo to share my own developed codes.
 Also I am used to adding useful material that can help a technical professional code, configure or maintain underlying systems.
-Please feel free to give feedback.
-Thanks
 
 
 ## Installing cloud-iac
@@ -10,12 +8,6 @@ Thanks
 ### Compatible Python Versions
 
 cloud-iac is known to work with Python versions 3.6, 3.7, and 3.8. Users have reported issues with Python 3.9.
-
-#### Linux / Mac
-
-Create a folder in your home directory called .pip
-Create a file called pip.conf inside of the .pip directory
-Add the following contents into your pip.conf configuration file:
 
 [global]  
 extra-index-url = https://<ArtifactoryUsername>:<APIKey/AccessToken>@tr1.jfrog.io/artifactory/api/pypi/pypi/simple
